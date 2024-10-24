@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+header{
+    background-image: url(Visual-Image/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 90vh;
+} 
+ 
+ 
+ nav{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2vw;
+    padding-block: 2vh;
+    height: 5vh;
+    font-weight: 100;
+ }
+ 
+ ul{
+    display: flex;
+    list-style: none;
+    gap: 13px;
+    color: white;
+    margin-right: 12vw;
+ }
+ 
+ #logo{
+    width: 13vw;
+    height: 4vh;
+    margin-left: 20vh;
+ }
+ 
+ #ham{
+    display: none;
+ }
+ 
+ h1{
+    color: white;
+    border: 1px solid white;
+    width: 30vw;
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    padding: 20px;
+    margin: 30vh 0 0 12vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+ }
+ 
+ section div:nth-child(1){
+   background-image: url(Visual-Image/image-interactive.jpg);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 70vh;
+   margin-top: 10vh;
+   margin-right: 55vh; 
+   padding-right: 13vh;
+ }
+ 
+ 
+ section div:nth-child(2){
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    left: 50vw;
+    bottom: 40vh;
+    padding-left: 5vw;
+    padding-block: 5vh;
+ }
+ 
+ #float{
+    margin: 1vw 1vw 0 0;
+    height: 70vh;
+    padding-left: 3vh;
+ }
+ 
+ 
+ aside{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-block: 10vh;
+    margin-inline: 13vw;
+    padding-right: 1vh;
+ }
+ 
+ aside h3:nth-child(1){
+    font-weight: bolder;
+    font-size: 24px;
+ }
+ 
+ main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    margin-inline: 12vw;
+    margin-block: 17vh;
+ }
+ 
+ h6{
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+    position: relative;
+    top: 50vh;
+    padding: 10px;
+ }
+ 
+ main div:nth-child(1) {
+    background-image: url(Visual-Image/image-deep-earth.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    
+ }
+ 
+ main div:nth-child(2){
+    background-image: url(Visual-Image/image-night-arcade.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ main div:nth-child(3){
+    background-image: url(Visual-Image/image-soccer-team.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ main div:nth-child(4){
+    background-image: url(Visual-Image/image-grid.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ main div:nth-child(5){
+    background-image: url(Visual-Image/image-from-above.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ main div:nth-child(6){
+    background-image: url(Visual-Image/image-pocket-borealis.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;   
+ }
+ 
+ main div:nth-child(7){
+    background-image: url(Visual-Image/image-curiosity.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ main div:nth-child(8){
+    background-image: url(Visual-Image/image-fisheye.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ .footer{
+    background-color: black;
+    padding: 20px 10% 10% 70px;
+    display: flex;
+ }
+ 
+ .footer div{
+    text-align: center;
+ }
+ 
+ font div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+ }
+ 
+ .afooter-logo{
+    margin-right: 300px;
+ }
+ 
+ .footer-menu{
+    margin-right: 47vh;
+ }
+ 
+ .footer-social__img{
+    margin-right: 40px;
+ }
+ 
+ footer div p:nth-child(3){
+    display: flex;
+    color: white;
+ }
+ 
+ .col2{
+    display: flex;
+    margin-left: 60px;
+ }
+ 
+ .social-media{
+    display: flex;
+    flex-direction: row;
+    padding-right: 160px;
+ }
+ 
+ @media  (max-width: 600px) {
+    
+    ul{
+       display: none;
+    }
+ 
+    #ham{
+       display: flex;
+       margin-right: 16px;
+       
+    }
+    #logo{
+       width: 120px;
+       margin-left: 20px;
+    }
+  
+ h1{
+    width: 70%
+ }
+ 
+ header{
+    overflow-y:hidden;
+    width: 100%;
+ }
+ 
+ 
+ body{
+    overflow-x: hidden;
+    width: 100%;
+ }
+ 
+ section div:nth-child(1){
+    background-image: url(Visual-Image/image-interactive.jpg);
+    background-position: center;
+    width: 100%;
+    padding-inline: 1vw;
+  }
+ 
+  #float{
+    display: inline;
+    width: 100%;
+ }
+  
+ section div:nth-child(2){
+    width: 100%;
+    display: block;
+    position: static;
+    height: auto;
+    
+    
+ }
+ main{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 10vw;
+    width: 100%; 
+ } 
+ 
+ main div:nth-child(1) {
+    background-image: url(Visual-Image/image-deep-earth.jpg);
+    background-position: contain;
+    background-repeat:no-repeat;
+    height: 60vh;
+    position:relative;
+ }
+ 
+ main div:nth-child(2){
+    background-image: url(Visual-Image/image-night-arcade.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 60vh;
+    z-index: -1;
+ }
+ 
+ main div:nth-child(3){
+    background-image: url(Visual-Image/image-soccer-team.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ main div:nth-child(4){
+    background-image: url(Visual-Image/image-grid.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ main div:nth-child(5){
+    background-image: url(Visual-Image/image-from-above.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ main div:nth-child(6){
+    background-image: url(Visual-Image/image-pocket-borealis.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;   
+ }
+ 
+ main div:nth-child(7){
+    background-image: url(Visual-Image/image-curiosity.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ main div:nth-child(8){
+    background-image: url(Visual-Image/image-fisheye.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: -1;
+ }
+ 
+ .footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ 
+ .afooter-logo{
+    display: block;
+    padding-left: 80px;
+ }
+ 
+ .footer-menu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 140px;
+ }
+ 
+ .col2{
+    padding-block: 150px;
+    display: flex;
+    flex-direction: row;
+    padding-inline: 100px;
+    width: 100%;
+ }
+ 
+  }
+ 
+  
