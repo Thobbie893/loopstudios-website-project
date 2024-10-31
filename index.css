@@ -252,7 +252,7 @@ footer{
   #logo {
         width: 30vw;
         height: 4vh;
-        margin-left: 45px;
+        margin-left: 10vh;
      }
   
      ul {
@@ -322,8 +322,7 @@ footer{
         position: relative;
         margin-block: 10vh;
         margin-inline: 8vw;
-   
-        margin-top: 9px;
+        padding-right: 1vh;
      }
   
      aside h3:nth-child(1) {
@@ -423,23 +422,19 @@ footer{
 
      .footerlogo{
         display: flex;
-        flex-direction: row;
-        margin-left: 150px;
+        margin-right: 20%;
      }
 
      .footer-logo-general-3{
         display:flex;
         flex-direction: column;
         margin-left: 140px;
-        margin-right: 140px;
-        margin-top: 20px;  
+        margin-right: auto;  
      }
     
      .social-media-icons{
-        display: flex;
-        flex-direction: row;
-        margin-left: 150px;
-        margin-block: 20px;
+        display: inline-block;
+        margin-left: 760px;
         padding-inline: 1px;
         gap: 2rem;
      }
@@ -467,13 +462,9 @@ footer{
         margin: 14px;
         padding-left: 50px;
         
-     } 
+     }
+
+   
 }
-
-
-
-
-
-
 
   
