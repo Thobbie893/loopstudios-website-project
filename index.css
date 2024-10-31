@@ -252,7 +252,7 @@ footer{
   #logo {
         width: 30vw;
         height: 4vh;
-        margin-left: 10vh;
+        margin-left: 45px;
      }
   
      ul {
@@ -321,8 +321,9 @@ footer{
         justify-content: space-between;
         position: relative;
         margin-block: 10vh;
-        margin-inline: 8vw;
+        margin-inline: 6vw;
         padding-right: 1vh;
+        margin-top: 1px;
      }
   
      aside h3:nth-child(1) {
@@ -422,7 +423,9 @@ footer{
 
      .footerlogo{
         display: flex;
-        margin-right: 20%;
+        flex-direction: column;
+        margin-left: 130px;
+        margin-top: 20px;
      }
 
      .footer-logo-general-3{
@@ -433,10 +436,12 @@ footer{
      }
     
      .social-media-icons{
-        display: inline-block;
-        margin-left: 760px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 25vw;
         padding-inline: 1px;
         gap: 2rem;
+        margin-block: 6vh;
      }
     
      .general-4{
