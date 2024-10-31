@@ -250,9 +250,9 @@ footer{
   }
    
   #logo {
-        width: 16vw;
+        width: 28vw;
         height: 4vh;
-        margin-left: 10vh;
+        margin-left: 45px;
      }
   
      ul {
@@ -261,7 +261,7 @@ footer{
   
      #ham {
         display: flex;
-        margin-right: 30px;
+        margin-right: 40px;
      }
   
      h1 {
@@ -322,7 +322,8 @@ footer{
         position: relative;
         margin-block: 10vh;
         margin-inline: 8vw;
-        padding-right: 1vh;
+   
+        margin-top: 9px;
      }
   
      aside h3:nth-child(1) {
@@ -334,9 +335,10 @@ footer{
      main {
         display: grid;
         grid-template-columns: 30rem;
-        margin-inline: 35px;
+        margin-inline: 30px;
         margin-right: 10vw;
-        width: 60%;
+        width: 50%;
+        margin-top: 25px;
      }
   
      h6 {
@@ -467,6 +469,10 @@ footer{
         
      } 
 }
+
+
+
+
 
 
 
