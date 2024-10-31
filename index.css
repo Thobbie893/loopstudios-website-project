@@ -436,6 +436,7 @@ footer{
         display: flex;
         flex-direction:row;
         margin-left: 150px;
+        margin-block: 20px;
         padding-inline: 1px;
         gap: 2rem;
      }
