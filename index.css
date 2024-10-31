@@ -427,8 +427,9 @@ footer{
      .footer-logo-general-3{
         display:flex;
         flex-direction: row;
-        margin-left: 140px;
-        margin-right: auto;  
+        margin-left: 150px;
+        margin-block:20px;
+        padding-inline:1px;
      }
     
      .social-media-icons{
