@@ -421,7 +421,8 @@ footer{
 
      .footerlogo{
         display: flex;
-        margin-right: 20%;
+        flex-direction:row;
+        margin-left: 150px;
      }
 
      .footer-logo-general-3{
