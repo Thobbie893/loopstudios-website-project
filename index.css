@@ -468,8 +468,75 @@ footer{
         padding-left: 50px;
         
      }
-
    
+}
+
+@media screen and (min-width:480) {
+   
+   h1{
+      align-items: center;
+      margin-left: 10px;
+      width: 20%;
+   }
+
+   section div:nth-child(1) {
+      background-image: url(asset/Image\ interactive\(mobile\).jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 2%;
+      height: 20vh;
+      display: column;
+      margin-inline:30px;
+      margin-block:10px
+   }
+
+   #float {
+      display: flex;
+      width: 40%;
+      position: absolute;
+      align-items: center;
+   }
+
+   .text {
+      font-size: 16px;
+      
+      
+      justify-content: center;
+   }
+
+   aside {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      margin-block: 10vh;
+      margin-inline: 4vw;
+      padding-right: 1vh;
+      margin-top: 5vh;
+   }
+
+   main {
+      display: grid;
+      grid-template-columns: 16px;
+      margin-inline: 30px;
+      margin-right: 10vw;
+      width: 50%;
+      margin-top: 25px;
+   }
+}
+
+@media screen and (min-width:430){
+   
+
+   h1 {
+      width: 60%;
+      margin-top: 19vh;
+      justify-content: center;
+   }
+
+   body{
+      overflow-x: hidden;
+   }
 }
 
   
