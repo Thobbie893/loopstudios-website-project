@@ -252,7 +252,7 @@ footer{
   #logo {
         width: 30vw;
         height: 4vh;
-        margin-left: 45px;
+        margin-left: 8px;
      }
   
      ul {
@@ -261,12 +261,12 @@ footer{
   
      #ham {
         display: flex;
-        margin-right: 40px;
+        margin-right: 8px;
      }
   
      h1 {
-        width: 68%;
-        margin-top: 19vh;
+        width: 85%;
+        margin-inline: 8px;
      }
   
      header {
@@ -286,13 +286,15 @@ footer{
   
      section div:nth-child(2) {
         height: 30vh;
-        width: 90%;
-        display: block;
+        width: 100%;
+        display: flex;
         flex-direction: column;
         position: static;
         margin-left: auto;
         margin-right: auto;
         text-transform: uppercase;
+        padding-bottom: 1px;
+        padding-top: 20px;
      }
   
      .word {
@@ -311,19 +313,19 @@ footer{
   
      .text {
         font-size: 20px;
-        margin-inline: 130px;
+        margin-inline: 100px;
         align-items: center;
-        justify-content: center;
+        margin-left: 50px;
      }
   
-     aside {
+     .creations {
         display: flex;
         justify-content: space-between;
-        position: relative;
-        margin-block: 10vh;
-        margin-inline: 6vw;
+        position: static;
+        margin-block: 60px;
+        margin-inline: 4vw;
         padding-right: 1vh;
-        margin-top: 1px;
+        margin-bottom: 2px;
      }
   
      aside h3:nth-child(1) {
@@ -331,14 +333,15 @@ footer{
         font-size: 24px;
         margin-right: 20px;
      }
+
+     
   
      main {
         display: grid;
-        grid-template-columns: 30rem;
-        margin-inline: 30px;
-        margin-right: 10vw;
-        width: 50%;
-        margin-top: 25px;
+        grid-template-columns: 430px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 80%;
      }
   
      h6 {
@@ -357,6 +360,7 @@ footer{
         background-repeat: no-repeat;
         height: 40vh;
         width: 88%;
+        top: 20px;
   
      }
   
@@ -426,28 +430,29 @@ footer{
         flex-direction: column;
         margin-left: 130px;
         margin-top: 20px;
+        padding-left: 8vw;
      }
 
      .footer-logo-general-3{
         display:flex;
         flex-direction: column;
-        margin-left: 140px;
-        margin-right: auto;  
+        margin-left: 100px;
+        margin-right: 100px;  
      }
     
      .social-media-icons{
         display: flex;
         flex-direction: row;
-        margin-left: 25vw;
-        padding-inline: 1px;
+        margin-inline: 20vw;
+        padding-left: 40vw;
         gap: 2rem;
-        margin-block: 6vh;
+        margin-block: 3vh;
      }
     
      .general-4{
         display: flex;
         flex-direction: column;
-        margin-inline: 60px;
+        margin-inline: 5vw;
      }
     
      .info-2{
@@ -457,86 +462,18 @@ footer{
         gap: 2rem;
         color: hsl(0, 0%, 55%);
         text-decoration: none;
-        margin-right: 8px;
-        text-align: center;
-        justify-content: center;
+        
+        margin-right: 20px;
+      text-align: center;
+        
      }
     
      .copyright{
         color: hsl(0, 0%, 55%);
         margin: 14px;
-        padding-left: 50px;
+        padding-left: 30px;
         
      }
    
 }
 
-@media screen and (min-width:480) {
-   
-   h1{
-      align-items: center;
-      margin-left: 10px;
-      width: 20%;
-   }
-
-   section div:nth-child(1) {
-      background-image: url(asset/Image\ interactive\(mobile\).jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      width: 2%;
-      height: 20vh;
-      display: column;
-      margin-inline:30px;
-      margin-block:10px
-   }
-
-   #float {
-      display: flex;
-      width: 40%;
-      position: absolute;
-      align-items: center;
-   }
-
-   .text {
-      font-size: 16px;
-      
-      
-      justify-content: center;
-   }
-
-   aside {
-      display: flex;
-      justify-content: space-between;
-      position: relative;
-      margin-block: 10vh;
-      margin-inline: 4vw;
-      padding-right: 1vh;
-      margin-top: 5vh;
-   }
-
-   main {
-      display: grid;
-      grid-template-columns: 16px;
-      margin-inline: 30px;
-      margin-right: 10vw;
-      width: 50%;
-      margin-top: 25px;
-   }
-}
-
-@media screen and (min-width:430){
-   
-
-   h1 {
-      width: 60%;
-      margin-top: 19vh;
-      justify-content: center;
-   }
-
-   body{
-      overflow-x: hidden;
-   }
-}
-
-  
